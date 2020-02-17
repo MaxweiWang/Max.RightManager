@@ -12,3 +12,17 @@ D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Entities\obj\Debug\netco
 D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.dll
 D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.pdb
 D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Entities\bin\Debug\netcoreapp3.1\Max.Entities.xml
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\bin\Debug\netcoreapp3.1\Max.Entities.xml
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\bin\Debug\netcoreapp3.1\Max.Entities.deps.json
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\bin\Debug\netcoreapp3.1\Max.Entities.dll
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\bin\Debug\netcoreapp3.1\Max.Entities.pdb
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\bin\Debug\netcoreapp3.1\Max.DataProvider.dll
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\bin\Debug\netcoreapp3.1\Max.Utilities.dll
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\bin\Debug\netcoreapp3.1\Max.DataProvider.pdb
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\bin\Debug\netcoreapp3.1\Max.Utilities.pdb
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.csprojAssemblyReference.cache
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.AssemblyInfoInputs.cache
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.AssemblyInfo.cs
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.csproj.CopyComplete
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.dll
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Common.Admin\\Max.Common.Admin.csproj": {}
+    "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Common.Admin\\Max.Common.Admin.csproj": {}
   },
   "projects": {
-    "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Common.Admin\\Max.Common.Admin.csproj": {
+    "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Common.Admin\\Max.Common.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Common.Admin\\Max.Common.Admin.csproj",
+        "projectUniqueName": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Common.Admin\\Max.Common.Admin.csproj",
         "projectName": "Max.Common.Admin",
-        "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Common.Admin\\Max.Common.Admin.csproj",
+        "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Common.Admin\\Max.Common.Admin.csproj",
         "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
-        "outputPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Common.Admin\\obj\\",
+        "outputPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Common.Admin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,14 +30,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj": {
-                "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj"
+              "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj": {
+                "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj"
               },
-              "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Service\\Max.Service.csproj": {
-                "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Service\\Max.Service.csproj"
+              "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Service\\Max.Service.csproj": {
+                "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Service\\Max.Service.csproj"
               },
-              "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj": {
-                "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj"
+              "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj": {
+                "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj"
               }
             }
           }
@@ -102,14 +102,14 @@
         }
       }
     },
-    "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {
+    "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj",
+        "projectUniqueName": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj",
         "projectName": "Max.DataProvider",
-        "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj",
+        "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj",
         "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
-        "outputPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\obj\\",
+        "outputPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -167,14 +167,14 @@
         }
       }
     },
-    "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj": {
+    "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj",
+        "projectUniqueName": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj",
         "projectName": "Max.Entities",
-        "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj",
+        "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj",
         "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
-        "outputPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\obj\\",
+        "outputPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -193,11 +193,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {
-                "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj"
+              "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {
+                "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj"
               },
-              "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj": {
-                "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj"
+              "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj": {
+                "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj"
               }
             }
           }
@@ -232,14 +232,14 @@
         }
       }
     },
-    "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Service\\Max.Service.csproj": {
+    "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Service\\Max.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Service\\Max.Service.csproj",
+        "projectUniqueName": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Service\\Max.Service.csproj",
         "projectName": "Max.Service",
-        "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Service\\Max.Service.csproj",
+        "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Service\\Max.Service.csproj",
         "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
-        "outputPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Service\\obj\\",
+        "outputPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -258,14 +258,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {
-                "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj"
+              "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {
+                "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj"
               },
-              "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj": {
-                "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj"
+              "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj": {
+                "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj"
               },
-              "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj": {
-                "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj"
+              "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj": {
+                "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj"
               }
             }
           }
@@ -306,14 +306,14 @@
         }
       }
     },
-    "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj": {
+    "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj",
+        "projectUniqueName": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj",
         "projectName": "Max.Utilities",
-        "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj",
+        "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj",
         "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
-        "outputPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\obj\\",
+        "outputPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

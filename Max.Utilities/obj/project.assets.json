@@ -2319,11 +2319,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj",
+      "projectUniqueName": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj",
       "projectName": "Max.Utilities",
-      "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj",
+      "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj",
       "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
-      "outputPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\obj\\",
+      "outputPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

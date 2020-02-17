@@ -6,3 +6,11 @@ D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Utilities\obj\Debug\netc
 D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Utilities\obj\Debug\netcoreapp3.1\Max.Utilities.dll
 D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Utilities\obj\Debug\netcoreapp3.1\Max.Utilities.pdb
 D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Utilities\obj\Debug\netcoreapp3.1\Max.Utilities.csprojAssemblyReference.cache
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Utilities\bin\Debug\netcoreapp3.1\Max.Utilities.deps.json
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Utilities\bin\Debug\netcoreapp3.1\Max.Utilities.dll
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Utilities\bin\Debug\netcoreapp3.1\Max.Utilities.pdb
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Utilities\obj\Debug\netcoreapp3.1\Max.Utilities.csprojAssemblyReference.cache
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Utilities\obj\Debug\netcoreapp3.1\Max.Utilities.AssemblyInfoInputs.cache
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Utilities\obj\Debug\netcoreapp3.1\Max.Utilities.AssemblyInfo.cs
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Utilities\obj\Debug\netcoreapp3.1\Max.Utilities.dll
+D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Utilities\obj\Debug\netcoreapp3.1\Max.Utilities.pdb

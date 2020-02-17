@@ -2800,11 +2800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj",
+      "projectUniqueName": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj",
       "projectName": "Max.Entities",
-      "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj",
+      "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj",
       "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
-      "outputPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\obj\\",
+      "outputPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2823,11 +2823,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {
-              "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj"
+            "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {
+              "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj"
             },
-            "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj": {
-              "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj"
+            "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj": {
+              "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj"
             }
           }
         }

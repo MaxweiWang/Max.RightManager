@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {}
+    "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {}
   },
   "projects": {
-    "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {
+    "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj",
+        "projectUniqueName": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj",
         "projectName": "Max.DataProvider",
-        "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj",
+        "projectPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj",
         "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
-        "outputPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\obj\\",
+        "outputPath": "D:\\BMax\\CoreSystem\\Max.CommonManagerSystem\\Max.DataProvider\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
