@@ -1,0 +1,296 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Service\\Max.Services.csproj": {}
+  },
+  "projects": {
+    "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj",
+        "projectName": "Max.DataProvider",
+        "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj",
+        "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
+        "outputPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wangM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj",
+        "projectName": "Max.Entities",
+        "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj",
+        "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
+        "outputPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wangM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {
+                "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj"
+              },
+              "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj": {
+                "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Service\\Max.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Service\\Max.Services.csproj",
+        "projectName": "Max.Services",
+        "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Service\\Max.Services.csproj",
+        "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
+        "outputPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wangM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj": {
+                "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.DataProvider\\Max.DataProvider.csproj"
+              },
+              "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj": {
+                "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Entities\\Max.Entities.csproj"
+              },
+              "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj": {
+                "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj",
+        "projectName": "Max.Utilities",
+        "projectPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\Max.Utilities.csproj",
+        "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
+        "outputPath": "D:\\BMax\\CommonManagerSystem\\Max.CommonManagerSystem\\Max.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wangM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.8, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

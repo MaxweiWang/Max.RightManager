@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Max.DataProvider\Max.DataProvider.csproj" />
+    <ProjectReference Include="..\Max.Entities\Max.Entities.csproj" />
+    <ProjectReference Include="..\Max.Utilities\Max.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

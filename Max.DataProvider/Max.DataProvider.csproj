@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BaseClass\temp\**" />
+    <EmbeddedResource Remove="BaseClass\temp\**" />
+    <None Remove="BaseClass\temp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Core\Abstract\Query\temp\AbstractJoin.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AbstractJoin.cs</LastGenOutput>
+    </None>
+    <None Update="Core\Achieve\Query\temp\JoinAchieve.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>JoinAchieve.cs</LastGenOutput>
+    </None>
+    <None Update="Core\Interface\Query\temp\IBase.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>IBase.cs</LastGenOutput>
+    </None>
+    <None Update="Core\Interface\Query\temp\IJoin.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>IJoin.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Core\Abstract\Query\temp\AbstractJoin.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AbstractJoin.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Core\Achieve\Query\temp\JoinAchieve.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>JoinAchieve.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Core\Interface\Query\temp\IBase.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>IBase.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Core\Interface\Query\temp\IJoin.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>IJoin.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

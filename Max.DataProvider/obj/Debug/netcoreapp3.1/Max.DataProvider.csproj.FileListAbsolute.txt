@@ -1,0 +1,8 @@
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.DataProvider\bin\Debug\netcoreapp3.1\Max.DataProvider.deps.json
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.DataProvider\bin\Debug\netcoreapp3.1\Max.DataProvider.dll
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.DataProvider\bin\Debug\netcoreapp3.1\Max.DataProvider.pdb
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.DataProvider\obj\Debug\netcoreapp3.1\Max.DataProvider.AssemblyInfoInputs.cache
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.DataProvider\obj\Debug\netcoreapp3.1\Max.DataProvider.AssemblyInfo.cs
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.DataProvider\obj\Debug\netcoreapp3.1\Max.DataProvider.dll
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.DataProvider\obj\Debug\netcoreapp3.1\Max.DataProvider.pdb
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.DataProvider\obj\Debug\netcoreapp3.1\Max.DataProvider.csprojAssemblyReference.cache

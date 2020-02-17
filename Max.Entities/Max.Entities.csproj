@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Max.DataProvider\Max.DataProvider.csproj" />
+    <ProjectReference Include="..\Max.Utilities\Max.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Max.Entities.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

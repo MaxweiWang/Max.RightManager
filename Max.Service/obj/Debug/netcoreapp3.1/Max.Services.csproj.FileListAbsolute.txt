@@ -1,0 +1,16 @@
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\bin\Debug\netcoreapp3.1\Max.Services.deps.json
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\bin\Debug\netcoreapp3.1\Max.Services.dll
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\bin\Debug\netcoreapp3.1\Max.Services.pdb
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\bin\Debug\netcoreapp3.1\Max.DataProvider.dll
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\bin\Debug\netcoreapp3.1\Max.Entities.dll
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\bin\Debug\netcoreapp3.1\Max.Utilities.dll
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\bin\Debug\netcoreapp3.1\Max.DataProvider.pdb
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\bin\Debug\netcoreapp3.1\Max.Entities.pdb
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\bin\Debug\netcoreapp3.1\Max.Utilities.pdb
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\obj\Debug\netcoreapp3.1\Max.Services.csprojAssemblyReference.cache
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\obj\Debug\netcoreapp3.1\Max.Services.AssemblyInfoInputs.cache
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\obj\Debug\netcoreapp3.1\Max.Services.AssemblyInfo.cs
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\obj\Debug\netcoreapp3.1\Max.Services.csproj.CopyComplete
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\obj\Debug\netcoreapp3.1\Max.Services.dll
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\obj\Debug\netcoreapp3.1\Max.Services.pdb
+D:\BMax\CommonManagerSystem\Max.CommonManagerSystem\Max.Service\bin\Debug\netcoreapp3.1\Max.Entities.xml
