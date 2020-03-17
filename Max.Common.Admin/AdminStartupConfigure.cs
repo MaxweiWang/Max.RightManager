@@ -160,17 +160,18 @@ namespace Max.Common.Admin
             //程序启动
             applicationLifetime.ApplicationStarted.Register(() =>
             {
-                Tools.Log.Write("App启动");
+                Console.WriteLine("App启动");
+                //Tools.Log.Write("App启动");
             });
             //程序正在结束中
             applicationLifetime.ApplicationStopping.Register(() =>
             {
-                Tools.Log.Write("App结束中...");
+                //Tools.Log.Write("App结束中...");
             });
             //程序已结束
             applicationLifetime.ApplicationStopped.Register(() =>
             {
-                Tools.Log.Write("App已结束");
+              //  Tools.Log.Write("App已结束");
             });
             //applicationLifetime.StopApplication();//停止程序
             #endregion

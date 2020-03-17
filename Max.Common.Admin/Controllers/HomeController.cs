@@ -35,7 +35,7 @@ namespace Controllers
             }
             else
             {
-                Tools.Log.Write(_Error, HttpContext.Connection.RemoteIpAddress.ToString());//nlog 写入日志到 txt
+               // Tools.Log.Write(_Error, HttpContext.Connection.RemoteIpAddress.ToString());//nlog 写入日志到 txt
                 _ErrorModel = new ErrorModel(_Error);
                 if (IsAjaxRequest) return Json(_ErrorModel);
                 //return Content(JsonConvert.SerializeObject(_ErrorModel));

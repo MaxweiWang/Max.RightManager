@@ -14,3 +14,10 @@ D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.DataProvider\obj\Debug\netcoreapp
 D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.DataProvider\obj\Debug\netcoreapp3.1\Max.DataProvider.AssemblyInfo.cs
 D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.DataProvider\obj\Debug\netcoreapp3.1\Max.DataProvider.dll
 D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.DataProvider\obj\Debug\netcoreapp3.1\Max.DataProvider.pdb
+D:\max\Git\CoreSystem.CommonManager\Max.DataProvider\bin\Debug\netcoreapp3.1\Max.DataProvider.deps.json
+D:\max\Git\CoreSystem.CommonManager\Max.DataProvider\bin\Debug\netcoreapp3.1\Max.DataProvider.dll
+D:\max\Git\CoreSystem.CommonManager\Max.DataProvider\bin\Debug\netcoreapp3.1\Max.DataProvider.pdb
+D:\max\Git\CoreSystem.CommonManager\Max.DataProvider\obj\Debug\netcoreapp3.1\Max.DataProvider.AssemblyInfoInputs.cache
+D:\max\Git\CoreSystem.CommonManager\Max.DataProvider\obj\Debug\netcoreapp3.1\Max.DataProvider.AssemblyInfo.cs
+D:\max\Git\CoreSystem.CommonManager\Max.DataProvider\obj\Debug\netcoreapp3.1\Max.DataProvider.dll
+D:\max\Git\CoreSystem.CommonManager\Max.DataProvider\obj\Debug\netcoreapp3.1\Max.DataProvider.pdb

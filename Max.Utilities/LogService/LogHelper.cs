@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NLog;
 
 namespace Max.Utilities.LogService
 {
-    using NLog;
 
     /// <summary>
     /// 参考地址：  

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 //
 using Aop;
-using Pages;
+using Max.Utilities;
 
 namespace Areas.Admin.Controllers
 {

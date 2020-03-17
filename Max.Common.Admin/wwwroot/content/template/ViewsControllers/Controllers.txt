@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Mvc;
 namespace //请在此设置您得命名空间
 {
     using System.Collections;
-    using Max.Entities;
-    using Max.Entities.SysClass;
-    using Max.Service;
-    using Max.Service.SysClass;
-    using Max.Utilities;
+    using Entitys;
+    using Entitys.SysClass;
+    using Logic;
+    using Logic.SysClass;
+    using Toolkit;
 
     /// <summary>
     /// <#ClassName#>管理

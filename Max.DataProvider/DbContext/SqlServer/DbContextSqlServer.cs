@@ -12,7 +12,7 @@ namespace Max.DataProvider.DbContext.SqlServer
     /// </summary>
     public class DbContextSqlServer : BaseDb
     {
-        public DbContextSqlServer(PagingMode pagingMode = PagingMode.OFFSET)
+        public DbContextSqlServer(PagingMode pagingMode = PagingMode.ROW_NUMBER)
         {
             _PagingMode = pagingMode;
             DbSettings.KeywordHandle = (Keyword) => "[" + Keyword + "]";
@@ -21,7 +21,7 @@ namespace Max.DataProvider.DbContext.SqlServer
             this.analysis = new Analysis(this.Ado, DbContextType.SqlServer);
         }
 
-        public DbContextSqlServer(string _ConnectionString, PagingMode pagingMode = PagingMode.OFFSET) : base(_ConnectionString)
+        public DbContextSqlServer(string _ConnectionString, PagingMode pagingMode = PagingMode.ROW_NUMBER) : base(_ConnectionString)
         {
             _PagingMode = pagingMode;
             DbSettings.KeywordHandle = (Keyword) => "[" + Keyword + "]";

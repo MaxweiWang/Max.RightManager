@@ -1,7 +1,7 @@
 ﻿namespace Aop
 {
-    using AppFormTag.Base;
     using Max.DataProvider.DbContext.SqlServer;
+    using Max.Entities.Class;
     using Max.Service.Class;
     using Max.Utilities;
     //
@@ -44,10 +44,10 @@
                     var _Value = (Max.Entities.Class.BaseClass)_ActionArguments[item];
                     if (_Value != null)
                     {
-                        //if (!_CheckModel.Check(_Value))
-                        //{
-                        //    throw new MessageBox(_CheckModel.ErrorMessage);
-                        //}
+                        if (!_CheckModel.Check(_Value))
+                        {
+                            throw new MessageBox(_CheckModel.ErrorMessage);
+                        }
                     }
                 }
             }

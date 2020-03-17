@@ -26,3 +26,17 @@ D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\obj\Debug\netcoreapp3.1\
 D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.csproj.CopyComplete
 D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.dll
 D:\BMax\CoreSystem\Max.CommonManagerSystem\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.pdb
+D:\max\Git\CoreSystem.CommonManager\Max.Entities\bin\Debug\netcoreapp3.1\Max.Entities.xml
+D:\max\Git\CoreSystem.CommonManager\Max.Entities\bin\Debug\netcoreapp3.1\Max.Entities.deps.json
+D:\max\Git\CoreSystem.CommonManager\Max.Entities\bin\Debug\netcoreapp3.1\Max.Entities.dll
+D:\max\Git\CoreSystem.CommonManager\Max.Entities\bin\Debug\netcoreapp3.1\Max.Entities.pdb
+D:\max\Git\CoreSystem.CommonManager\Max.Entities\bin\Debug\netcoreapp3.1\Max.DataProvider.dll
+D:\max\Git\CoreSystem.CommonManager\Max.Entities\bin\Debug\netcoreapp3.1\Max.Utilities.dll
+D:\max\Git\CoreSystem.CommonManager\Max.Entities\bin\Debug\netcoreapp3.1\Max.DataProvider.pdb
+D:\max\Git\CoreSystem.CommonManager\Max.Entities\bin\Debug\netcoreapp3.1\Max.Utilities.pdb
+D:\max\Git\CoreSystem.CommonManager\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.csprojAssemblyReference.cache
+D:\max\Git\CoreSystem.CommonManager\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.AssemblyInfoInputs.cache
+D:\max\Git\CoreSystem.CommonManager\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.AssemblyInfo.cs
+D:\max\Git\CoreSystem.CommonManager\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.csproj.CopyComplete
+D:\max\Git\CoreSystem.CommonManager\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.dll
+D:\max\Git\CoreSystem.CommonManager\Max.Entities\obj\Debug\netcoreapp3.1\Max.Entities.pdb

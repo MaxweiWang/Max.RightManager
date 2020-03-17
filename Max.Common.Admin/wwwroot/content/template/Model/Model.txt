@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Max.Entities
+namespace Entitys
 {
    //
-    using Max.DataProvider.BaseClass;
-    using Max.Entities.Attributes;
+    using DbFrame.BaseClass;
+    using Entitys.Attributes;
 
 	[Table("<#TableName#>")]
     public class <#ClassName#> : Entitys.Class.BaseClass

@@ -4,6 +4,136 @@
         <name>Max.Common.Admin</name>
     </assembly>
     <members>
+        <member name="T:Aop.AopAdminActionFilter">
+            <summary>
+            检查session 
+            </summary>
+        </member>
+        <member name="P:Aop.AopAdminActionFilter.Ignore">
+            <summary>
+            忽略特性
+            </summary>
+        </member>
+        <member name="M:Aop.AopAdminActionFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            每次请求Action之前发生，，在行为方法执行前执行
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:Aop.AopCheckEntityFilter">
+            <summary>
+            实体验证 特性
+            </summary>
+        </member>
+        <member name="M:Aop.AopCheckEntityFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            每次请求Action之前发生，，在行为方法执行前执行
+            </summary>
+            <param name="filterContext"></param>
+        </member>
+        <member name="T:Aop.ApiCheckTokenFilter">
+            <summary>
+            检查 Authorization
+            </summary>
+        </member>
+        <member name="P:Aop.ApiCheckTokenFilter.Ignore">
+            <summary>
+            忽略特性
+            </summary>
+        </member>
+        <member name="M:Aop.ApiCheckTokenFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            每次请求Action之前发生，，在行为方法执行前执行
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:AppFormTag.Base.BaseClass">
+            <summary>
+            标签库 基础类
+            </summary>
+        </member>
+        <member name="P:AppFormTag.Base.BaseClass.Name">
+            <summary>
+            标签名称
+            </summary>
+        </member>
+        <member name="P:AppFormTag.Base.BaseClass.Attribute">
+            <summary>
+            属性
+            </summary>
+        </member>
+        <member name="M:AppFormTag.Base.BaseClass.GetAttributeString">
+            <summary>
+            获取属性 字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AppFormTag.Base.OneLabel">
+            <summary>
+            单一 标签 例如 ：<input />
+            </summary>
+        </member>
+        <member name="M:AppFormTag.Base.OneLabel.#ctor(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            
+            </summary>
+            <param name="_Name"></param>
+            <param name="_Attribute"></param>
+        </member>
+        <member name="P:AppFormTag.Base.TwoLabel.Text">
+            <summary>
+            标签内部 元素
+            </summary>
+        </member>
+        <member name="M:AppFormTag.Base.TwoLabel.#ctor(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.String)">
+            <summary>
+            成对标签
+            </summary>
+            <param name="_Name">标签名称</param>
+            <param name="_Attribute">标签属性</param>
+            <param name="_Text"></param>
+        </member>
+        <member name="T:AppFormTag.FormsBase">
+            <summary>
+            表单基类
+            </summary>
+        </member>
+        <member name="M:AppFormTag.FormsBase.AnalysisExpression``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+            <summary>
+            解析表达式
+            </summary>
+            <param name="Field"></param>
+            <returns>(string,string) Item1=字段名 Item2=显示名称</returns>
+        </member>
+        <member name="M:AppFormTag.FormsBase.ObjectToDictionary(System.Object)">
+            <summary>
+            将匿名对象转换为字典
+            </summary>
+            <param name="Attribute"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AppFormTag.FormsBase.GetDisplayName``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+            <summary>
+            获取字段显示名称
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Field"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AppFormTag.FormsBase.GetField``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+            <summary>
+            获取字段名称和显示名称
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Field">字段</param>
+            <returns>(string,string) Item1=字段名、Item2=显示名称</returns>
+        </member>
+        <member name="M:AppFormTag.UI.CreateViewModel(System.Object[])">
+            <summary>
+            创建 JS 实体
+            </summary>
+            <returns></returns>
+        </member>
         <member name="P:Areas.Admin.Controllers.AdminBaseController.db">
             <summary>
             数据访问对象
@@ -84,7 +214,7 @@
             <param name="rows"></param>
             <returns></returns>
         </member>
-        <member name="M:Areas.Admin.Controllers.AdminBaseController.DBToExcel(Entitys.SysClass.PagingEntity)">
+        <member name="M:Areas.Admin.Controllers.AdminBaseController.DBToExcel(Max.Entities.SysClass.PagingEntity)">
             <summary>
             表数据转换为EXCEL
             </summary>
@@ -218,136 +348,6 @@
                    userName = "hzy"
             }
             </remarks>
-            <returns></returns>
-        </member>
-        <member name="T:Aop.AopAdminActionFilter">
-            <summary>
-            检查session 
-            </summary>
-        </member>
-        <member name="P:Aop.AopAdminActionFilter.Ignore">
-            <summary>
-            忽略特性
-            </summary>
-        </member>
-        <member name="M:Aop.AopAdminActionFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
-            <summary>
-            每次请求Action之前发生，，在行为方法执行前执行
-            </summary>
-            <param name="context"></param>
-        </member>
-        <member name="T:Aop.AopCheckEntityFilter">
-            <summary>
-            实体验证 特性
-            </summary>
-        </member>
-        <member name="M:Aop.AopCheckEntityFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
-            <summary>
-            每次请求Action之前发生，，在行为方法执行前执行
-            </summary>
-            <param name="filterContext"></param>
-        </member>
-        <member name="T:Aop.ApiCheckTokenFilter">
-            <summary>
-            检查 Authorization
-            </summary>
-        </member>
-        <member name="P:Aop.ApiCheckTokenFilter.Ignore">
-            <summary>
-            忽略特性
-            </summary>
-        </member>
-        <member name="M:Aop.ApiCheckTokenFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
-            <summary>
-            每次请求Action之前发生，，在行为方法执行前执行
-            </summary>
-            <param name="context"></param>
-        </member>
-        <member name="T:AppFormTag.Base.BaseClass">
-            <summary>
-            标签库 基础类
-            </summary>
-        </member>
-        <member name="P:AppFormTag.Base.BaseClass.Name">
-            <summary>
-            标签名称
-            </summary>
-        </member>
-        <member name="P:AppFormTag.Base.BaseClass.Attribute">
-            <summary>
-            属性
-            </summary>
-        </member>
-        <member name="M:AppFormTag.Base.BaseClass.GetAttributeString">
-            <summary>
-            获取属性 字符串
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="T:AppFormTag.Base.OneLabel">
-            <summary>
-            单一 标签 例如 ：<input />
-            </summary>
-        </member>
-        <member name="M:AppFormTag.Base.OneLabel.#ctor(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
-            <summary>
-            
-            </summary>
-            <param name="_Name"></param>
-            <param name="_Attribute"></param>
-        </member>
-        <member name="P:AppFormTag.Base.TwoLabel.Text">
-            <summary>
-            标签内部 元素
-            </summary>
-        </member>
-        <member name="M:AppFormTag.Base.TwoLabel.#ctor(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.String)">
-            <summary>
-            成对标签
-            </summary>
-            <param name="_Name">标签名称</param>
-            <param name="_Attribute">标签属性</param>
-            <param name="_Text"></param>
-        </member>
-        <member name="T:AppFormTag.FormsBase">
-            <summary>
-            表单基类
-            </summary>
-        </member>
-        <member name="M:AppFormTag.FormsBase.AnalysisExpression``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
-            <summary>
-            解析表达式
-            </summary>
-            <param name="Field"></param>
-            <returns>(string,string) Item1=字段名 Item2=显示名称</returns>
-        </member>
-        <member name="M:AppFormTag.FormsBase.ObjectToDictionary(System.Object)">
-            <summary>
-            将匿名对象转换为字典
-            </summary>
-            <param name="Attribute"></param>
-            <returns></returns>
-        </member>
-        <member name="M:AppFormTag.FormsBase.GetDisplayName``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
-            <summary>
-            获取字段显示名称
-            </summary>
-            <typeparam name="T"></typeparam>
-            <param name="Field"></param>
-            <returns></returns>
-        </member>
-        <member name="M:AppFormTag.FormsBase.GetField``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
-            <summary>
-            获取字段名称和显示名称
-            </summary>
-            <typeparam name="T"></typeparam>
-            <param name="Field">字段</param>
-            <returns>(string,string) Item1=字段名、Item2=显示名称</returns>
-        </member>
-        <member name="M:AppFormTag.UI.CreateViewModel(System.Object[])">
-            <summary>
-            创建 JS 实体
-            </summary>
             <returns></returns>
         </member>
     </members>

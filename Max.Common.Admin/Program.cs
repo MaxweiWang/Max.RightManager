@@ -17,8 +17,8 @@ namespace Max.Common.Admin
         {
             var logger = NLog.Web.NLogBuilder.ConfigureNLog("NLog/nlog.config").GetCurrentClassLogger();
             try
-            {   
-                //设置NLog
+            {
+             //   设置NLog
                 LogHelper.Set(logger);
                 logger.Debug("初始化 Main !");
 
@@ -27,27 +27,26 @@ namespace Max.Common.Admin
             catch (Exception exception)
             {
                 //NLog: catch setup errors
-                logger.Error(exception, "由于异常而停止程序!");
+                 logger.Error(exception, "由于异常而停止程序!");
             }
             finally
             {
-                // Ensure to flush and stop internal timers/threads before application-exit (Avoid segmentation fault on Linux)
-                NLog.LogManager.Shutdown();
+                //Ensure to flush and stop internal timers/threads before application-exit(Avoid segmentation fault on Linux)
+                   NLog.LogManager.Shutdown();
             }
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>()
-                      //写上日志
-                        .ConfigureLogging(logging =>
+                 Host.CreateDefaultBuilder(args)
+                     .ConfigureWebHostDefaults(webBuilder =>
+                     {
+                         webBuilder.UseStartup<Startup>()
+                         .ConfigureLogging(logging =>
                          {
                              logging.ClearProviders();
                              logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
                          })
-                    .UseNLog();
-                });
+                         .UseNLog();  // NLog: Setup NLog for Dependency injection;;
+                     });
     }
 }
